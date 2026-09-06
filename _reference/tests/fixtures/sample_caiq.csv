@@ -1,0 +1,8 @@
+Some Vendor CAIQ v4,,,
+Generated 2025-01-01,,,
+Question ID,Question,CSP CAIQ Answer,CSP Implementation Description
+CEK-03.1,Are cryptographic keys managed through a documented key management lifecycle?,Yes,"Keys are generated and stored in AWS KMS with automatic annual rotation. Access is restricted to the platform security team and every use is logged to CloudTrail."
+DCS-06.2,Is customer data encrypted at rest using industry standard algorithms?,Yes,"All customer data at rest is encrypted with AES-256. Database volumes and object storage buckets use envelope encryption managed by AWS KMS."
+IVS-04.1,Do you perform penetration testing of your production environment?,Yes,"An independent third party performs a full penetration test annually. Critical and high findings are remediated within 30 days and a summary letter is available under NDA."
+HRS-02.1,Are background checks performed on all personnel prior to employment?,Yes,"Background screening is completed for all employees and contractors before their start date, where permitted by local law."
+BCR-01.3,What is your documented recovery time objective for critical systems?,Yes,"The recovery time objective for tier 1 services is 4 hours and the recovery point objective is 15 minutes. Restore procedures are exercised twice per year."
