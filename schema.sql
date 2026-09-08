@@ -12,7 +12,8 @@ CREATE TABLE answer_bank (
     source_file   text NOT NULL,
     embedding     vector(384),
     tsv           tsvector GENERATED ALWAYS AS (
-                      to_tsvector('english', question_text || ' ' || answer_text)
+                      to_tsvector('english',
+                          coalesce(control_id, '') || ' ' || question_text || ' ' || answer_text)
                   ) STORED
 );
 
@@ -21,6 +22,7 @@ CREATE TABLE policy_chunks (
     id          serial PRIMARY KEY,
     heading     text,
     content     text NOT NULL,
+    ordinal     int NOT NULL DEFAULT 0,
     source_file text NOT NULL,
     embedding   vector(384),
     tsv         tsvector GENERATED ALWAYS AS (to_tsvector('english', content)) STORED

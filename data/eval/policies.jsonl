@@ -1,0 +1,38 @@
+{"question": "How often do we have to change system passwords?", "chunks": [{"file": "password.md", "ordinal": 1}]}
+{"question": "How quickly must I tell my manager about a security incident?", "chunks": [{"file": "incident.md", "ordinal": 5}]}
+{"question": "How frequently should logs containing personal data be checked?", "chunks": [{"file": "log.md", "ordinal": 4}]}
+{"question": "How long can we keep corporate records and contracts?", "chunks": [{"file": "retention.md", "ordinal": 4}]}
+{"question": "Can a supplier touch our systems before signing anything?", "chunks": [{"file": "vendor.md", "ordinal": 2}]}
+{"question": "Who tells IT when somebody new joins the company?", "chunks": [{"file": "access.md", "ordinal": 2}]}
+{"question": "What happens once an incident has been closed?", "chunks": [{"file": "incident.md", "ordinal": 7}]}
+{"question": "Who decides whether to involve law enforcement after a breach?", "chunks": [{"file": "incident.md", "ordinal": 7}]}
+{"question": "Which rooms count as secure areas?", "chunks": [{"file": "datacenter.md", "ordinal": 2}]}
+{"question": "What has to be recorded in audit logs on production systems?", "chunks": [{"file": "log.md", "ordinal": 2}]}
+{"question": "Can I plug my own laptop into the data centre network?", "chunks": [{"file": "datacenter.md", "ordinal": 3}]}
+{"question": "What do I do if I think my password has leaked?", "chunks": [{"file": "password.md", "ordinal": 1}]}
+{"question": "Who signs off on the permissions a new starter gets?", "chunks": [{"file": "access.md", "ordinal": 2}]}
+{"question": "What details go into an incident report?", "chunks": [{"file": "incident.md", "ordinal": 5}]}
+{"question": "How long do we hold on to emails and travel itineraries?", "chunks": [{"file": "retention.md", "ordinal": 4}]}
+{"question": "Do our suppliers have to follow our security rules?", "chunks": [{"file": "vendor.md", "ordinal": 2}]}
+{"question": "Who is on call for security incidents?", "chunks": [{"file": "incident.md", "ordinal": 4}]}
+{"question": "What must be logged when we use a cloud provider?", "chunks": [{"file": "log.md", "ordinal": 4}]}
+{"question": "Who carries out the root cause analysis?", "chunks": [{"file": "incident.md", "ordinal": 7}]}
+{"question": "Is storing cardboard boxes in the server room allowed?", "chunks": [{"file": "datacenter.md", "ordinal": 3}]}
+{"question": "7 years", "chunks": [{"file": "retention.md", "ordinal": 3}, {"file": "retention.md", "ordinal": 4}], "style": "exact"}
+{"question": "notify within 24 hours", "chunks": [{"file": "incident.md", "ordinal": 3}, {"file": "incident.md", "ordinal": 5}], "style": "exact"}
+{"question": "quarterly password rotation", "chunks": [{"file": "password.md", "ordinal": 1}], "style": "exact"}
+{"question": "post mortem root cause analysis", "chunks": [{"file": "incident.md", "ordinal": 6}, {"file": "incident.md", "ordinal": 7}], "style": "exact"}
+{"question": "flammable materials", "chunks": [{"file": "datacenter.md", "ordinal": 3}], "style": "exact"}
+{"question": "PII log review", "chunks": [{"file": "log.md", "ordinal": 3}, {"file": "log.md", "ordinal": 4}], "style": "exact"}
+{"question": "on-call ISM", "chunks": [{"file": "incident.md", "ordinal": 4}], "style": "exact"}
+{"question": "audit-logging", "chunks": [{"file": "log.md", "ordinal": 2}], "style": "exact"}
+{"question": "secure areas", "chunks": [{"file": "datacenter.md", "ordinal": 2}, {"file": "datacenter.md", "ordinal": 3}, {"file": "office.md", "ordinal": 1}], "style": "exact"}
+{"question": "HRS-02.1", "chunks": [], "answer_control": "HRS-02.1", "style": "exact"}
+{"question": "Are you ISO 27001 certified?", "chunks": [], "answer_control": "A&A-01.2", "style": "answer"}
+{"question": "How do you dispose of hard drives holding customer data?", "chunks": [], "answer_control": "DCS-04.1", "style": "answer"}
+{"question": "Are logs sent to one central place?", "chunks": [], "answer_control": "LOG-03.1", "style": "answer"}
+{"question": "Do you have a written policy about what staff may do with company equipment?", "chunks": [], "answer_control": "HRS-02.1", "style": "answer"}
+{"question": "Is there a documented process for handling vulnerabilities?", "chunks": [], "answer_control": "TVM-03.1", "style": "answer"}
+{"question": "Do you have an incident management procedure?", "chunks": [], "answer_control": "SEF-03.1", "style": "answer"}
+{"question": "How is access to systems controlled and reviewed?", "chunks": [], "answer_control": "IAM-02.1", "style": "answer"}
+{"question": "Is there a security baseline for operating systems?", "chunks": [], "answer_control": "IVS-04.1", "style": "answer"}

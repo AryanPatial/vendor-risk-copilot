@@ -13,13 +13,13 @@ def connect():
     register_vector(conn)
     return conn
 
-
+# reading the schema.sql file and executing it to create tables in the database
 def create_tables():
     sql = SCHEMA_PATH.read_text()
     with connect() as conn:
         conn.execute(sql)
 
-
+# showing the tables in the database along with the number of columns in each table
 def show_tables():
     with connect() as conn:
         rows = conn.execute("""
